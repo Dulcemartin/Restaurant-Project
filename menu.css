@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+.header-wrapper {
+    background-color: black;
+    color: #fff;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+.header-styles {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+}
+.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 42px;
+    width: 500px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 120px;
+}
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    width: 70px;
+    text-align: center;
+}
+.link-wrapper a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-wrapper a:hover {
+    color: #bcca99;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.right-column {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    font-size: 2em;
+}
+.icon-mr {
+    margin-right: 15px;
+}
+.icon-ml {
+    margin-left: 15px;
+}
+
+.features-section{
+    border-top: 15px solid yellow;
+}
+
+.menu-page{
+    background-color: black;
+}
+
+.image{
+    /*background-image: url(../Portfolio-project/Assets/Menu.JPG);*/
+
+    width: 1500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 50px;
+    
+}
