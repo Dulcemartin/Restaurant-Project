@@ -67,3 +67,62 @@ h1, h2, h3, h4, h5, h6 {
 .icon-ml {
     margin-left: 15px;
 }
+.features-section{
+    border-top: 15px solid yellow;
+}
+.content{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:auto;   
+    max-width: 100%; 
+    padding: 10px 100px 10px 100px; 
+}
+.pictures{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+.about-us{
+    width: 500px;
+    text-align: justify;
+}
+
+.about-us2{
+    width: 500px;
+    text-align: justify;
+}
+
+.about-flex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-flex{
+    padding-top: 100px ;
+    display:flex;
+    justify-content: center;
+    background-color:black;
+    padding-bottom: 100px;
+ 
+   
+}
+
+.icon-color {
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+   
+    
+
+}
